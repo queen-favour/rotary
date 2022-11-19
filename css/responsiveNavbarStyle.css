@@ -1,0 +1,28 @@
+
+ .responsive-nav-bar {
+
+ display: block;
+  }
+
+  .mobile-menu-div {
+    display: none;
+ }
+
+
+
+@media (max-width: 992px) {
+
+  .mobile-menu-div {
+     display: block;
+  }
+
+ 
+
+  
+
+  .responsive-nav-bar {
+        display: none;  
+  } 
+           
+    
+    }

@@ -1,0 +1,176 @@
+/*home page*/
+/*mini phone*/
+@media (max-width: 414px){
+    .first-carousel {
+        height: 35vh;
+    }
+    #section{
+        padding: 1vh;
+    }
+    .ourCauses{
+        margin-top: 30px;
+    }
+    .ourCauses-col {
+        display: list-item;
+    }
+}
+/*phone screen*/
+@media (max-width: 512px){
+.first-carousel {
+    height: 35vh;
+}
+#section{
+    padding-top: 20px;
+}
+.ourCauses{
+    margin-top: 30px;
+}
+.ourCauses-col {
+    display: list-item;
+}
+.footer-subscribe-desktop{
+    display: none!important;
+}
+.footer-subscribe{
+    display: block!important;
+    margin-bottom: 2.5rem;
+}
+.footer-box2{
+    display: none;
+}
+.footer-info-desktop{
+    display: none;
+}
+.footer-information{
+    display: block!important;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+}
+/*ipad*/
+
+/*@media (min-width: 768px){
+    .first-carousel {
+        height: 40vh;
+    }
+    #section{
+        padding-top: 20px;
+    }
+}
+
+/*About us*/
+@media (max-width: 512px) {
+    .what-we-do-container{
+        display: flex!important;
+    
+    }
+    .aboutUs {
+        width: 100%;
+        height: 120px!important;
+        background: url(mobileAbtImg.png)!important;
+    }
+    .aboutText{
+        display: none;
+    }
+    .aboutRWC-welcome{
+        font-size: 21px!important;
+    }
+}
+/*contact us*/
+@media (max-width:512px){
+    .getIn-touch{
+        margin: 0%;
+    }
+    .contactMessage{
+        height: 30vh;
+    }
+    
+}
+/*Gallery page*/
+@media (max-width:512px) {
+    .galleryText{
+        top: 270px;
+        width: auto;
+        font-size: 35px;
+    }
+    .galleryTxt{
+        top: 331px;
+        font-size: 15px;
+        width: auto;
+    }
+    .galleryImg{
+        grid-template-columns: repeat(1, minmax(250px, 1fr));
+    }
+    
+    
+}
+/*become a member page*/
+@media (max-width:512px) {
+    .membershipText{
+        font-size: 33px;
+        top: 301px;
+        left: 30px;
+        width: auto;
+
+    }  
+    .membershipTxt{
+        font-size: 18.5px;
+        top: 350px;
+        left: 30px;
+        width: auto;
+    }
+    .labelHint{
+        display: none;
+    }
+    .asterrisk-signature{
+        display: none;
+    }
+    .asterisk-occupation{
+        display: none;
+    }
+}
+/*news page*/
+@media (max-width:512px){
+    .NewsImage{
+        display: none;
+    }
+    .newstextmobile{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 61px;
+        display: flex;
+        align-items: center;
+        margin: 2% 7%;
+        }
+        .news1{
+            display: flex;
+        }
+    
+}
+
+/*footer section*/
+@media(max-width: 414px){
+    .footer-subscribe-desktop{
+        display: none!important;
+    }
+    .footer-subscribe{
+        display: block!important;
+        margin-bottom: 2.5rem;
+    }
+    .footer-box2{
+        display: none;
+    }
+    .footer-info-desktop{
+        display: none;
+    }
+    .footer-information{
+        display: block;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+
+}
