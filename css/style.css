@@ -135,11 +135,17 @@ section {
     width: calc(100%/3);
 }
 
+/*THIS IS THE PREVIOUS CODE THAT DISPLAYS 2 PICTURES IN THE CAROUSEL
 @media screen and (max-width: 567px) {
     .card:not(:first-child) {
-        display: none;
+        /*display: none;*
 
-    }
+    }*/
+    @media screen and (max-width: 567px) {
+        .card{
+            display: flex;
+    
+        }
 
     .cards-wrapper {
         padding-top: 80px;
